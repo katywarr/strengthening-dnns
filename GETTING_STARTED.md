@@ -40,31 +40,16 @@ create a virtual environment using the following command:
 conda env create -f strengthening-dnns.yml 
 ```
 
-If you have a GPU on your machine, use: 
-
-*TODO: The GPU environment is not available yet*
-```
-conda create -n strengthening-dnns-gpu 
-```
-
 Whenever you want to use this environment, invoke:
 
 ```
 conda activate strengthening-dnns
 ```
 
-or, if you selected the gpu option:
+Your prompt should now look like something like this:
 
 ```
-conda activate strengthening-dnns-gpu
-```
-For all the following commands, replace `strengthening-dnns` with `strengthening-dnns-gpu` if you are using the 
-gpu option.
-
-Your prompt should now look like this:
-
-```
-(strengthening-dnns) C:\current_dir>
+(strengthening-dnns) current_dir>
 ```
 
 ## Create an IPython kernel for the Conda environment (one time) 
