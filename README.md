@@ -1,3 +1,5 @@
+![Adversarial book cover image](book-cover-adversarial.png)
+
 # strengthening-dnns
 
 This is the code repository that accompanies the O'Reilly book 
@@ -7,7 +9,6 @@ The Jupyter notebooks contained in this repository provide the illustrative exam
 There are many other resources (open libraries, examples and 
 papers) available to explore adversarial examples. Some are listed in [RESOURCES.md]()
 
-Please note that this repository is work in progress and some of the code is incomplete. It will be completed when the book goes live.
 
 ## Setting up your environment
 
