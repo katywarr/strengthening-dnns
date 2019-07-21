@@ -1,6 +1,7 @@
 # Resources
 
-These resources are work in progress and will be updated.
+This section provides links to a subset of the resources linked from the book and some additional related 
+resources, especially with code or videos.
 
 ## Table of Contents
 1. [Online Resources for Getting Started With Deep Learning](#Online-Resources-for-Getting-Started-With-Deep-Learning)
@@ -52,16 +53,20 @@ It is located at [https://www.robust-ml.org/]().
 Several competitions have encouraged participation in the generation of adversarial 
 attacks and defenses including competitions from Google 
 and Kaggle ([https://www.kaggle.com]()).
- 
+
+---
+## Early Papers for Concepts of Adversarial Examples
+
+* [Intriguing properties of neural networks by 
+Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus](https://arxiv.org/abs/1312.6199)
+
+* [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images
+by Anh Nguyen, Jason Yosinski, Jeff Clune](https://arxiv.org/abs/1412.1897)
+
 ---
 ## Adversarial Examples Code and Experimentation
 
 Many research papers have associated GitHub repositories and videos/audio examples. Here are a few.
-
-### Creating Robust examples
-
-Here's a well presented [Jupyter notebook](https://www.anishathalye.com/2017/07/25/synthesizing-adversarial-examples/) to accompany the paper 
-[Synthesizing Robust Adversarial Examples by Anthalye et al.](https://arxiv.org/abs/1707.07397).
 
 ### Adversarial Patch
 
@@ -70,12 +75,20 @@ To see adversarial patches in action, take a look at this video:
 This accompanies the paper [Adversarial Patch by Brown et al.](https://arxiv.org/abs/1712.09665).
 Example code for creating adversarial patches is [here](https://github.com/tensorflow/cleverhans/tree/master/examples/adversarial_patch)
 
+### Creating Robust and Physical World Examples
+
+Here's a well presented [Jupyter notebook](https://www.anishathalye.com/2017/07/25/synthesizing-adversarial-examples/) to accompany the paper 
+[Synthesizing Robust Adversarial Examples by Anish Athalye, Logan Engstrom, Andrew Ilyas, and Kevin Kwok](https://arxiv.org/abs/1707.07397).
+
+This research considers a different approach, raising the possibility of fooling neural networks by viewing objects from unusual angles.
+[Strike (with) a Pose: Neural networks are easily fooled by strange poses of familiar objects 
+by Michael Alcorn, Qi Li, Zhitao Gong, Chengfei Wang, Long Mai, Wei-shinn Ku, Anh Nguyen](http://anhnguyen.me/project/strike-with-a-pose/)
+
 ### Adversarial Audio 
 
 If you'd like to listen to some adversarial audio examples, take a look [here](https://nicholas.carlini.com/code/audio_adversarial_examples/).
 This accompanies the paper [Audi Adversarial Examples Targeted Attacks on Speech-to-Text
 by Carlini and Wagner](https://nicholas.carlini.com/papers/2018_dls_audioadvex.pdf)
-
 
 ## Fooling Humans
 
