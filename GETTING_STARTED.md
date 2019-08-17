@@ -1,7 +1,5 @@
 # Getting Started
 
-These instructions have not been fully tested. They will be more robust when the book goes live in August.
-
 ## Clone this repository
 
 Navigate to the folder that you would like to store this repository in and clone the repository.
