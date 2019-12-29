@@ -59,15 +59,13 @@ conda activate strengthening-dnns
 ```
 
 Create the Kernel
+
 ```
-pip install jupyter
 python -m ipykernel install --user --name strengthening-dnns --display-name "Python (strengthening-dnns)"
 ```
 
 # Running the code
 
-
-## Create an IPython kernel for the Conda environment (one time) 
 
 From within an Anaconda Command Prompt, ensure that you are within the correct environment 
 

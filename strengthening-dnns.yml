@@ -1,7 +1,7 @@
 name: strengthening-dnns
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - _tflow_select=2.3.0=mkl
   - absl-py=0.7.1=py37_0
@@ -10,8 +10,8 @@ dependencies:
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
   - bleach=3.1.0=py37_0
-  - ca-certificates=2019.3.9=hecc5488_0
-  - certifi=2019.3.9=py37_0
+  - ca-certificates=2019.11.27=0
+  - certifi=2019.11.28=py37_0
   - colorama=0.4.1=py37_0
   - cycler=0.10.0=py37_0
   - decorator=4.4.0=py37_1
@@ -65,7 +65,7 @@ dependencies:
   - notebook=5.7.8=py37_0
   - numpy=1.16.3=py37h19fb1c0_0
   - numpy-base=1.16.3=py37hc3f5095_0
-  - openssl=1.1.1b=hfa6e2cd_2
+  - openssl=1.1.1c=he774522_1
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
   - parso=0.4.0=py_0
@@ -107,7 +107,7 @@ dependencies:
   - vs2015_runtime=14.15.26706=h3a45250_0
   - wcwidth=0.1.7=py37_0
   - webencodings=0.5.1=py37_1
-  - werkzeug=0.15.2=py_0
+  - werkzeug=0.15.3=py_0
   - wheel=0.33.1=py37_0
   - widgetsnbextension=3.4.2=py37_0
   - wincertstore=0.2=py37_0
