@@ -50,20 +50,6 @@ Your prompt should now look like something like this:
 (strengthening-dnns) current_dir>
 ```
 
-## Create an IPython kernel for the Conda environment (one time) 
-
-From within an Anaconda Command Prompt, ensure that you are within the correct environment. 
-
-```
-conda activate strengthening-dnns
-```
-
-Create the Kernel
-
-```
-python -m ipykernel install --user --name strengthening-dnns --display-name "Python (strengthening-dnns)"
-```
-
 # Running the code
 
 
