@@ -50,6 +50,12 @@ Your prompt should now look like something like this:
 (strengthening-dnns) current_dir>
 ```
 
+Create a Kernel to enable use of the conda environment in Jupyter 
+
+```
+ python -m ipykernel install --user --name strengthening-dnns --display-name "Python (strengthening-dnns)"
+```
+
 # Running the code
 
 
@@ -67,5 +73,5 @@ jupyter notebook
 
 Here's a good [introduction to Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io)
 
-
+When running the Jupyter notebooks, the correct kernel ```Python (strengthening-dnns)``` (created in the one time step previously). This is selectable via a drop down at the top right of the Jupyter notebook interface.
 
