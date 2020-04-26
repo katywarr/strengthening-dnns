@@ -27,8 +27,16 @@ def generate_adversarial_data(original_images,
 
     """
     num_original_images = original_images.shape[0]
-    adv_images = np.empty((0, original_images.shape[1], original_images.shape[2]),
-                          dtype=int)
+
+    image_dimension = len(original_images.shape)-1
+    if image_dimension == 2:  # Monochrome images 
+        adv_images = np.empty((0, original_images.shape[1], original_images.shape[2]), dtype=int)
+    else: 
+        if image_dimension == 3:  # Colour images
+            adv_images = np.empty((0, original_images.shape[1], original_images.shape[2], original_images.shape[3]), dtype=int)
+        else:  # Error case
+            print('Error: Original images array was not a valid dimension for monochrome or colour images')
+            return [], [], []
 
     l0_norms = np.empty(0, dtype=float)
     l2_norms = np.empty(0, dtype=float)
