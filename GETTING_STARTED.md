@@ -1,5 +1,7 @@
 # Getting Started
 
+Note: this repository uses TensorFlow v1.  
+
 ## Clone this repository
 
 Navigate to the folder that you would like to store this repository in and clone the repository.
